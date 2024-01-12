@@ -1,0 +1,357 @@
+@media screen and (max-width: 1170px) {
+    .planets_row{
+        grid-template-columns: 1fr 1fr;
+    }
+    section{
+        column-gap: 100px;
+    }
+}
+@media screen and (max-width: 1030px) {
+    .header_col2-img1 {
+        right: -124px;
+        top: -217px;
+        width: 420px;
+    }
+
+    .header_col2-img2 {
+        bottom: -173px;
+        right: 148px;
+    }
+
+    .header_col1 {
+        width: 70%;
+    }
+
+    .header {
+        height: 403px;
+    }
+    .filter{
+        display: none;
+    }
+    .planets{
+        width: 1200px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .planets_row{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .planets_img{
+        width: 200px;
+        height: 250px;
+    }
+    .planets_img1{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .nav_col2 {
+        display: none;
+    }
+    .np{
+        column-gap: 0;
+        justify-content: space-between;
+    }
+    .planets_row{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .nav_input {
+        display: none;
+    }
+
+    .nav_media_input {
+        display: block;
+    }
+
+    .header_col1-title1 {
+        font-size: 60px;
+    }
+
+    .header_col2-img1 {
+        top: -166px;
+        width: 360px;
+    }
+
+    .header_col2-img2 {
+        right: 107px;
+    }
+
+    .header {
+        overflow: hidden;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .header_col1-title1 {
+        font-size: 50px;
+    }
+
+    .header_col1-title2 {
+        display: none;
+    }
+
+    .header_col1-title3 {
+        display: block;
+        color: #727272;
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    .header {
+        height: 366px;
+    }
+
+    .header_col2-img1 {
+        top: -187px;
+    }
+
+    .header_col2-img2 {
+        top: 15px;
+        right: 107px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .nav_col1 {
+        display: none;
+    }
+
+    .nav_col3 {
+        display: none;
+    }
+
+    .nav_media_input input {
+        border: 0;
+        width: 80vw;
+        padding: 10px 35px;
+        background-color: #F8F8F8;
+        font-size: 14px;
+    }
+
+    .nav_media_input img {
+        display: block;
+    }
+
+    .nav_filter {
+        display: block;
+    }
+
+    .header {
+        height: 337px;
+    }
+
+    .header_col1-button {
+        font-size: 12px;
+    }
+
+    .header_col2-img1 {
+        width: 300px;
+        top: -168px;
+    }
+
+    .header_col2-img2 {
+        top: -19px;
+        right: 64px;
+    }
+
+    .header_col1-title3 {
+        font-size: 12px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 650px) {
+    .header_col2-img1 {
+        width: 300px;
+        top: -131px;
+    }
+    .nav_media_input input {
+        border: 0;
+        width: 78vw;
+        padding: 8px 35px;
+        background-color: #F8F8F8;
+        font-size: 14px;
+    }
+
+    .nav_media_input img {
+        display: block;
+        padding: 8;
+    }
+
+    .nav_filter {
+        display: block;
+        background: linear-gradient(137.05deg, rgba(70, 163, 88, 0.45) -24.6%, #46A358 100%);
+        padding: 7px 8px;
+        margin-top: 3px;
+        border-radius: 10px;
+    }
+
+    .header_col2-img2 {
+        top: 15px;
+        right: 64px;
+    }
+
+    .header {
+        height: 290px;
+        background-color: #dcfbe2;
+    }
+
+    .header_col1-title1 {
+        font-size: 39px;
+    }
+    .planets_row{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header_col2-img1 {
+        width: 300px;
+        top: -161px;
+    }
+
+    .header_col2-img2 {
+        top: -13px;
+        right: 64px;
+    }
+    .planets_item{
+        width: 200px;
+        height: 300px;
+    }
+    section{
+        max-width: 1200px;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .header_col1-title1 {
+        font-size: 33px;
+    }
+
+    .header_col2-img1 {
+        width: 272px;
+        top: -145px;
+    }
+
+    .header_col2-img2 {
+        width: 114px;
+        top: -2px;
+        right: 40px;
+    }
+    .np_row {
+        font-size: 16px;
+        padding: 5px 0 0 0;
+        column-gap: 19px;
+    }
+    .sort{
+        display: none;
+    }
+}
+@media screen and (max-width: 450px) {
+    .planets_img{
+        width: 147px;
+        height: 170px;
+    }
+    .planets_item{
+        width: 147px;
+        height: 200px;
+    }
+    .planets_item:hover .planets_emoji{
+        display: none;
+    }
+    .planets_row{
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .header_col2-img1 {
+        right: -111px;
+        width: 239px;
+        top: -117px;
+    }
+    .nav_media_input input {
+        border: 0;
+        width: 75vw;
+        padding: 8px 35px;
+        background-color: #F8F8F8;
+        font-size: 14px;
+    }
+    .planets_title{
+        font-size: 14px;
+    }
+
+
+    .header_col2-img2 {
+        width: 100px;
+        top: 8px;
+        right: 25px;
+    }
+
+    .header_col1-title1 {
+        font-size: 26px;
+    }   
+    .header_col1-title3 {
+        padding: 0 0 10px 0;
+        font-size: 10px;
+    }
+    .header_col1-button {
+        font-size: 8px;
+    }
+    .header {
+        height: 248px;
+        background-color: #dcfbe2;
+    }
+    .header_col1-title {
+        font-size: 14px;
+        color: #3D3D3D;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .header_col1-title {
+        font-size: 13px;
+        color: #3D3D3D;
+        margin-bottom: 10px;
+    }
+
+    .header_col1-title1 {
+        font-size: 23px;
+    }
+
+    .header_col1-title3 {
+        font-size: 9px;
+        padding-bottom: 5px;
+    }
+
+    .header_col2-img1 {
+        width: 189px;
+        top: -100px;
+        right: -92px;
+    }
+
+    .header_col2-img2 {
+        width: 87px;
+        top: -8px;
+        right: 18px;
+    }
+
+    .header {
+        height: 210px;
+    }
+
+    .header_col1-button {
+        font-size: 9px;
+        background-color: transparent;
+        color: green;
+        padding: 0;
+    }
+
+    .header_col1-button span {
+        display: inline;
+    }
+}
