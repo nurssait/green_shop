@@ -69,6 +69,12 @@ const start = (num = 0, str = '') => {
 
     }
 }
+nav_filter.onclick = function(){
+    modal_nav.classList = 'modal_nav'
+}
+modal_nav.onclick = function(){
+    modal_nav.classList = 'none'
+}
 filterBtn.onclick = function () {
     start(rangeInp.value * 2)
 }

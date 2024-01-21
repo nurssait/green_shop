@@ -633,3 +633,40 @@ section {
     flex-direction: column;
     row-gap: 20px;
 }
+.modal_nav{
+    top: 0;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.774);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    justify-content: right;
+    animation-name: top-bottom;
+    animation-duration: 2s;
+}
+@keyframes top-bottom{
+    0%{
+        top: -1000px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+
+.modal_col{
+    padding: 20px 0;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.modal_nav_row{
+    row-gap: 30px;
+    padding: 10px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
