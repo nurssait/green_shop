@@ -642,7 +642,7 @@ section {
     width: 100%;
     justify-content: right;
     animation-name: top-bottom;
-    animation-duration: 2s;
+    animation-duration: 0.5s;
 }
 @keyframes top-bottom{
     0%{
