@@ -1,0 +1,9 @@
+.swiper-pagination-bullet {
+    border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+    background: var(--swiper-pagination-bullet-inactive-color, #46A358);
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
+}
+.swiper-pagination-bullet-active{
+    background: var(--swiper-pagination-bullet-inactive-color, #46A358);
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, );
+}
